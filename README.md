@@ -25,3 +25,8 @@ This is a frontend project built for the JAZRO coding challenge using:
 git clone https://github.com/duap00/vue-pokedex-full.git
 cd vue-pokedex-full
 
+### 2. Install dependencies:
+
+```bash
+npm install
+
