@@ -6,7 +6,7 @@ This is a frontend project built for the JAZRO coding challenge using:
 - Bootstrap 5.3
 - Vue Router
 - Pinia (state management)
-- [PokeAPI](https://pokeapi.co)
+- PokeAPI (https://pokeapi.co)
 
 ## 🔧 Features
 
@@ -19,14 +19,35 @@ This is a frontend project built for the JAZRO coding challenge using:
 
 ## 🚀 How to Run the Project
 
-### 1. Clone this repository:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/duap00/vue-pokedex-full.git
 cd vue-pokedex-full
 
-### 2. Install dependencies:
+2. Install dependencies:
 
-```bash
+bash
+Copy
+Edit
 npm install
 
+3. Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+
+4. Open your browser at:
+
+http://localhost:5173
+
+✨ Extra Notes
+Logo is stored in /public/pokemon_logo.png
+
+State is managed in src/stores/pokemon.js
+
+Nicknames are stored temporarily (not persisted)
+
+Built by Ahmad Kamil for JAZRO Robotics 🎉
