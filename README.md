@@ -1,4 +1,3 @@
-
 # Vue Pokédex App
 
 This is a frontend project built for the JAZRO coding challenge using:
@@ -9,8 +8,11 @@ This is a frontend project built for the JAZRO coding challenge using:
 - Pinia (state management)
 - PokeAPI (https://pokeapi.co)
 
+---
 
-## Features
+## 🚀 Features & Installation Guide
+
+### ✨ Features
 
 - View 100 Pokémon from PokeAPI
 - Search Pokémon by name
@@ -19,40 +21,20 @@ This is a frontend project built for the JAZRO coding challenge using:
 - Responsive layout with Bootstrap
 - Dark theme UI
 
+---
 
-## Installation
-
-1. Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-
-```
-2. Install depency
-
-
-```bash 
-   npm install
-
-```
-
-3. Start the development server
+### 🛠️ How to Run the Project
 
 ```bash
-   npm run dev
+# 1. Clone this repository
+git clone https://github.com/duap00/vue-pokedex-full.git
+cd vue-pokedex-full
 
-```
-4. Open your browser
-```bash
-# Visit: http://localhost:5173
-```
+# 2. Install dependencies
+npm install
 
-## Extra  notes
-- Logo is stored in /public/pokemon_logo.png
+# 3. Start the development server
+npm run dev
 
-- State is managed in src/stores/pokemon.js
-
-- Nicknames are stored temporarily (not persisted)
-
-Built by Ahmad Kamil for JAZRO Robotics 
+# 4. Open your browser at
+http://localhost:5173
